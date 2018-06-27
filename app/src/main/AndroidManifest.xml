@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shrirang.techfarm1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TechFarm"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Weather"
+            android:label="Weather" />
+        <activity
+            android:name=".SoilActivity"
+            android:label="Soil Report" />
+        <activity
+            android:name=".OrganicActivity"
+            android:label="Organic Farming" />
+        <activity
+            android:name=".OrganicInfo"
+            android:label="Organic Information" />
+        <activity
+            android:name=".WeathersActivity"
+            android:label="Weather" />
+        <activity android:name=".StoriesActivity"
+            android:label="Stories"/>
+        <activity android:name=".RegistrationActivity"
+            android:label="Registration"/>
+    </application>
+
+</manifest>

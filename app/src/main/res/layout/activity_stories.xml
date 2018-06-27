@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shrirang.techfarm1.StoriesActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/storiesbg">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Story:1
+A rich boy who left an established business to champion organic farming — the story of Arjun Suri"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="@android:color/white"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arjun_suri"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text=""
+                android:padding="8dp"
+                android:id="@+id/str1"
+                android:textColor="@android:color/white"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/arjun_suri2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:padding="8dp"
+                android:id="@+id/str2"
+                android:textColor="@android:color/white"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/arjun_suri3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:padding="8dp"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:id="@+id/str3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Story:2
+26 members of Haritakudumbam are now preparing to cultivate in 12 acres"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="@android:color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:padding="8dp"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:id="@+id/str4"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

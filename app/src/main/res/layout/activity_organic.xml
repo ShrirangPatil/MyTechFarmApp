@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/oraganicbg"
+    tools:context="com.example.shrirang.techfarm1.OrganicActivity">
+
+        <LinearLayout
+            android:id="@+id/oi"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:alpha=".55"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:background="#B71C1C"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/organicsearch" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Organic Information"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ss"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:alpha=".55"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:background="#7B1FA2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/success" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Success Stories"
+                android:textColor="@android:color/white"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+</LinearLayout>

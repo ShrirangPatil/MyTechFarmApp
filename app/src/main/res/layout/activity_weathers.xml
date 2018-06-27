@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/weatherlistbg"
+    tools:context="com.example.shrirang.techfarm1.WeathersActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:background="@drawable/weathercheck" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_weight="1">
+        <RadioGroup
+            android:id="@+id/radio_grp"
+            android:layout_width="match_parent"
+            android:layout_height="206dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <RadioButton
+                android:id="@+id/belagavi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8sp"
+                android:onClick="onRadioButtonClicked"
+                android:text="Belagavi"
+                android:textSize="39dp" />
+
+            <RadioButton
+                android:id="@+id/bagalkot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8sp"
+                android:onClick="onRadioButtonClicked"
+                android:text="Bagalkot"
+                android:textSize="39sp" />
+
+            <RadioButton
+                android:id="@+id/chikodi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8sp"
+                android:onClick="onRadioButtonClicked"
+                android:text="Chikodi"
+                android:textSize="39sp" />
+
+            <RadioButton
+                android:id="@+id/bengaluru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8sp"
+                android:onClick="onRadioButtonClicked"
+                android:text="Bengaluru"
+                android:textSize="39sp" />
+
+            <RadioButton
+                android:id="@+id/hubli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8sp"
+                android:onClick="onRadioButtonClicked"
+                android:text="Hubli"
+                android:textSize="39sp" />
+
+            <RadioButton
+                android:id="@+id/mysore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8sp"
+                android:onClick="onRadioButtonClicked"
+                android:text="Mysore"
+                android:textSize="39sp" />
+
+            <RadioButton
+                android:id="@+id/tumkur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8sp"
+                android:onClick="onRadioButtonClicked"
+                android:text="Tumkur"
+                android:textSize="39sp" />
+
+            <RadioButton
+                android:id="@+id/madikeri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8sp"
+                android:onClick="onRadioButtonClicked"
+                android:text="Madikeri"
+                android:textSize="39sp" />
+
+            <RadioButton
+                android:id="@+id/badami"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8sp"
+                android:onClick="onRadioButtonClicked"
+                android:text="Badami"
+                android:textSize="39sp" />
+        </RadioGroup>
+    </ScrollView>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="Submit"
+        android:alpha=".6"
+        android:textSize="25sp" />
+
+</LinearLayout>
